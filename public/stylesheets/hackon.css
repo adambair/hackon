@@ -1,0 +1,26 @@
+body { 
+  background: url('../images/hackon-background-sky.jpg') no-repeat left 0 fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
+
+#logo {
+  text-indent: -9999px;
+  /* display: hidden; */
+}
+
+img {
+  width: 150px; 
+  display: block;
+  right: 140px;
+  position: absolute;
+}
+
+p {
+  /* background: white; */
+  /* color: black; */
+  font-family: "Courier New";
+  font-weight: bold;
+}
