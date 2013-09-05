@@ -19,7 +19,7 @@ before 'deploy:setup', 'rvm:install_rvm'
 before 'deploy:setup', 'rvm:install_ruby'
 
 set :scm, "git"
-set :repository, "git@github.com:hackoncc/#{application}.git"
+set :repository, "git@github.com:adambair/#{application}.git"
 set :branch, "master"
 
 default_run_options[:pty] = true
